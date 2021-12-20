@@ -28,9 +28,9 @@ const PopupAddBill = forwardRef(({ detail = {}, onReload }, ref) => {
     } = await get("/api/type/list");
 
     // 所有的支出标签
-    const _expense = list.filter((item) => item.type === 1);
+    const _expense = list.filter((item) => item.type === "1");
     // 所有的收入标签
-    const _income = list.filter((item) => item.type === 2);
+    const _income = list.filter((item) => item.type === "2");
 
     setExpense(_expense);
     setIncome(_income);
