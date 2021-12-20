@@ -1,0 +1,30 @@
+{
+  "name": "juejue-cost-client",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.7",
+    "lib-flexible": "^0.3.2",
+    "postcss-pxtorem": "^6.0.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.1",
+    "rc-form": "^2.4.12",
+    "react": "^17.0.0",
+    "react-captcha-code": "^1.0.7",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^6.0.2",
+    "zarm": "2.8.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "less": "^4.1.2",
+    "vite": "^2.6.4",
+    "vite-plugin-style-import": "^1.3.0"
+  }
+}
